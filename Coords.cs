@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Coords {
+    
     public class Coord: IEquatable<Coord>, IComparable<Coord>
     {
         public Coord(int x, int y)
